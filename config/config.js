@@ -17,10 +17,6 @@ var config = {
 			module: 'alert',
 		},
 		{
-			module: "updatenotification",
-			position: "top_bar"
-		},
-		{
 			module: 'clock',
 			position: 'top_left'
 		},
@@ -74,6 +70,13 @@ var config = {
 				showPublishDate: true
 			}
 		},
+		{
+            module: 'MMM-RSS-FEED',
+            position: 'top_bar',
+            config: {
+            url: 'http://www.standaard.be/rss/section/1f2838d4-99ea-49f0-9102-138784c7ea7c'
+            }
+    },
 	]
 
 };
